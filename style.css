@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+
+.header {
+	position: fixed;
+	top: 10;
+	left: 0;
+	width: 100%;
+	padding: 20px 30px;
+	background: transparent;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}	
+
+.logo {
+	font-size: 45px;
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.navbar a {
+	font-size: 50px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 50px;
+	align-items: center;
+}
+
+.navbar a:hover,
+.navbar a.active {
+	color: hsl(120, 60%, 56%);
+}
+
+.home {
+	height: 100vh;
+	background: linear-gradient(-90deg, #2e6613 65%,#fff 35%);
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	padding: 10% 10%;
+}
+
+.home-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	background: #fff;
+	border-radius: 50%;
+	border: 25px solid #fff;
+	outline: 25px solid #000;
+}
+
+.home-image img {
+	position: relative;
+	bottom: 22px;
+	max-width: 380px;
+	height: auto;
+}
+
+.home-content {
+	max-width: 1000px;
+	max-height: 50%;
+	color: #fff;
+	text-align: center;
+}
+
+
+.home-content h1 {
+	font-size: 70px;
+	line-height: 1.2;
+	margin-top: 0px;
+}
+
+.home-content h3 {
+	font-size: 70px;
+	margin-top: 0px;
+        top: 250px;
+}
+
+@keyframes animation {
+	0%,95%,100% {
+		background-position: -410px 0;
+	}
+	65%,85% {
+		background-position: 0 0;
+	}
+}
+
+.home-content p {
+	font-size: 40px;
+	margin-top: 10px;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 2.5em;
+
+}
+
+.home-content p1 {
+	font-size: 40px;
+	margin-top: 100px;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 2.5em;
+
+}
+
+
+.home-sci{
+	margin: 0px 0 20px;
+}
+
+.home-sci a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	margin: 35px;
+	background: transparent;
+	border: 5px solid #000;
+	border-radius: 50%;
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+	transition: .5s;
+	
+}
+
+.home-sci a:hover {
+	background: hsl(120, 60%, 56%);
+	color: #000;
+	border-color: hsl(120, 60%, 56%);
+	box-shadow: 0 0 10px hsl(120, 60%, 56%);
+}
+
+.btn {
+	padding: 12px 35px;
+	background: #00abf0;
+	border-radius: 40px;
+	font-size: 17px;
+	color: #000;
+	text-decoration: none;
+	font-weight: 300;
+	letter-spacing: 1px;
+	box-shadow: 0 0 18px #0076F0;
+	transition: .5s;
+}
+
+.btn:hover {
+	box-shadow: none;
+}
